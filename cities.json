@@ -1,0 +1,405 @@
+{
+  "cityCode":"1",
+  "cityName":"ADANA",
+  "cityPic":"/pic/01.jpg"
+}
+{
+  "cityCode": "2",
+  "cityName": "ADIYAMAN",
+  "cityPic": "/pic/02.jpg"
+}
+{
+  "cityCode": "3",
+  "cityName": "AFYONKARAHİSAR",
+  "cityPic": "/pic/03.jpg"
+}
+{
+  "cityCode": "4",
+  "cityName": "AĞRI",
+  "cityPic": "/pic/02.jpg"
+}
+{
+  "cityCode": "5",
+  "cityName": "AMASYA",
+  "cityPic": "/pic/05.jpg"
+}
+{
+  "cityCode": "6",
+  "cityName": "ANKARA",
+  "cityPic": "/pic/06.jpg"
+}
+{
+  "cityCode": "7",
+  "cityName": "ANTALYA",
+  "cityPic": "/pic/07.jpg"
+}
+{
+  "cityCode": "8",
+  "cityName": "ARTVIN",
+  "cityPic": "/pic/08.jpg"
+}
+{
+  "cityCode": "9",
+  "cityName": "AYDIN",
+  "cityPic": "/pic/09.jpg"
+}
+{
+  "cityCode": "10",
+  "cityName": "BALIKESİR",
+  "cityPic": "/pic/10.jpg"
+}
+{
+  "cityCode": "11",
+  "cityName": "BİLECİKK",
+  "cityPic": "/pic/11.jpg"
+}
+{
+  "cityCode": "12",
+  "cityName": "BİNGÖL",
+  "cityPic": "/pic/12.jpg"
+}
+{
+  "cityCode": "13",
+  "cityName": "BİTLİS",
+  "cityPic": "/pic/13.jpg"
+}
+{
+  "cityCode": "14",
+  "cityName": "BOLU",
+  "cityPic": "/pic/14.jpg"
+}
+{
+  "cityCode": "15",
+  "cityName": "BURDUR",
+  "cityPic": "/pic/15.jpg"
+}
+{
+  "cityCode": "16",
+  "cityName": "BURSA",
+  "cityPic": "/pic/16.jpg"
+}
+{
+  "cityCode": "17",
+  "cityName": "ÇANAKKALE",
+  "cityPic": "/pic/17.jpg"
+}
+{
+  "cityCode": "18",
+  "cityName": "ÇANKIRI",
+  "cityPic": "/pic/18.jpg"
+}
+{
+  "cityCode": "19",
+  "cityName": "ÇORUM",
+  "cityPic": "/pic/19.jpg"
+}
+{
+  "cityCode": "20",
+  "cityName": "DENİZLİ",
+  "cityPic": "/pic/20.jpg"
+}
+{
+  "cityCode": "21",
+  "cityName": "DİYARBAKIR",
+  "cityPic": "/pic/21.jpg"
+}
+{
+  "cityCode": "22",
+  "cityName": "EDİRNE",
+  "cityPic": "/pic/22.jpg"
+}
+{
+  "cityCode": "23",
+  "cityName": "ELAZIĞ",
+  "cityPic": "/pic/23.jpg"
+}
+{
+  "cityCode": "24",
+  "cityName": "ERZİNCAN",
+  "cityPic": "/pic/24.jpg"
+}
+{
+  "cityCode": "25",
+  "cityName": "ERZURUM",
+  "cityPic": "/pic/25.jpg"
+}
+{
+  "cityCode": "26",
+  "cityName": "ESKİŞEHİR",
+  "cityPic": "/pic/26.jpg"
+}
+{
+  "cityCode": "27",
+  "cityName": "GAZİANTEP",
+  "cityPic": "/pic/27.jpg"
+}
+{
+  "cityCode": "28",
+  "cityName": "GİRESUN",
+  "cityPic": "/pic/28.jpg"
+}
+{
+  "cityCode": "29",
+  "cityName": "GÜMÜŞHANE",
+  "cityPic": "/pic/29.jpg"
+}
+{
+  "cityCode": "30",
+  "cityName": "HAKKARİ",
+  "cityPic": "/pic/30.jpg"
+}
+{
+  "cityCode": "31",
+  "cityName": "HATAY",
+  "cityPic": "/pic/31.jpg"
+}
+{
+  "cityCode": "32",
+  "cityName": "ISPARTA",
+  "cityPic": "/pic/32.jpg"
+}
+{
+  "cityCode": "33",
+  "cityName": "MERSİN",
+  "cityPic": "/pic/33.jpg"
+}
+{
+  "cityCode": "34",
+  "cityName": "İSTANBUL",
+  "cityPic": "/pic/34.jpg"
+}
+{
+  "cityCode": "35",
+  "cityName": "İZMİR",
+  "cityPic": "/pic/35.jpg"
+}
+{
+  "cityCode": "36",
+  "cityName": "KARS",
+  "cityPic": "/pic/36.jpg"
+}
+{
+  "cityCode": "37",
+  "cityName": "KASTAMONU",
+  "cityPic": "/pic/37.jpg"
+}
+{
+  "cityCode": "38",
+  "cityName": "KAYSERİ",
+  "cityPic": "/pic/38.jpg"
+}
+{
+  "cityCode": "39",
+  "cityName": "KIRKLARELİ",
+  "cityPic": "/pic/39.jpg"
+}
+{
+  "cityCode": "40",
+  "cityName": "KIRŞEHİR",
+  "cityPic": "/pic/40.jpg"
+}
+{
+  "cityCode": "41",
+  "cityName": "KOCAELİ",
+  "cityPic": "/pic/41.jpg"
+}
+{
+  "cityCode": "42",
+  "cityName": "KONYA",
+  "cityPic": "/pic/42.jpg"
+}
+{
+  "cityCode": "43",
+  "cityName": "KÜTAHYA",
+  "cityPic": "/pic/43.jpg"
+}
+{
+  "cityCode": "44",
+  "cityName": "MALATYA",
+  "cityPic": "/pic/44.jpg"
+}
+{
+  "cityCode": "45",
+  "cityName": "MANİSA",
+  "cityPic": "/pic/45.jpg"
+}
+{
+  "cityCode": "46",
+  "cityName": "KAHRAMANMARAŞ",
+  "cityPic": "/pic/46.jpg"
+}
+{
+  "cityCode": "47",
+  "cityName": "MARDİN",
+  "cityPic": "/pic/47.jpg"
+}
+{
+  "cityCode": "48",
+  "cityName": "MUĞLA",
+  "cityPic": "/pic/48.jpg"
+}
+{
+  "cityCode": "49",
+  "cityName": "MUŞ",
+  "cityPic": "/pic/49.jpg"
+}
+{
+  "cityCode": "50",
+  "cityName": "NEVŞEHİR",
+  "cityPic": "/pic/50.jpg"
+}
+{
+  "cityCode": "51",
+  "cityName": "NİĞDE",
+  "cityPic": "/pic/51.jpg"
+}
+{
+  "cityCode": "52",
+  "cityName": "ORDU",
+  "cityPic": "/pic/52.jpg"
+}
+{
+  "cityCode": "53",
+  "cityName": "RİZE",
+  "cityPic": "/pic/53.jpg"
+}
+{
+  "cityCode": "54",
+  "cityName": "SAKARYA",
+  "cityPic": "/pic/54.jpg"
+}
+{
+  "cityCode": "55",
+  "cityName": "SAMSUN",
+  "cityPic": "/pic/55.jpg"
+}
+{
+  "cityCode": "56",
+  "cityName": "SİİRT",
+  "cityPic": "/pic/56.jpg"
+}
+{
+  "cityCode": "57",
+  "cityName": "SİNOP",
+  "cityPic": "/pic/57.jpg"
+}
+{
+  "cityCode": "58",
+  "cityName": "SİVAS",
+  "cityPic": "/pic/58.jpg"
+}
+{
+  "cityCode": "59",
+  "cityName": "TEKİRDAĞ",
+  "cityPic": "/pic/59.jpg"
+}
+{
+  "cityCode": "60",
+  "cityName": "TOKAT",
+  "cityPic": "/pic/60.jpg"
+}
+{
+  "cityCode": "61",
+  "cityName": "TRABZON",
+  "cityPic": "/pic/61.jpg"
+}
+{
+  "cityCode": "62",
+  "cityName": "TUNCELİ",
+  "cityPic": "/pic/62.jpg"
+}
+{
+  "cityCode": "63",
+  "cityName": "ŞANLIURFA",
+  "cityPic": "/pic/63.jpg"
+}
+{
+  "cityCode": "64",
+  "cityName": "UŞAK",
+  "cityPic": "/pic/64.jpg"
+}
+{
+  "cityCode": "65",
+  "cityName": "VAN",
+  "cityPic": "/pic/65.jpg"
+}
+{
+  "cityCode": "66",
+  "cityName": "YOZGAT",
+  "cityPic": "/pic/66.jpg"
+}
+{
+  "cityCode": "67",
+  "cityName": "ZONGULDAK",
+  "cityPic": "/pic/67.jpg"
+}
+{
+  "cityCode": "68",
+  "cityName": "AKSARAY",
+  "cityPic": "/pic/68.jpg"
+}
+{
+  "cityCode": "69",
+  "cityName": "BAYBURT",
+  "cityPic": "/pic/69.jpg"
+}
+{
+  "cityCode": "70",
+  "cityName": "KARAMAN",
+  "cityPic": "/pic/70.jpg"
+}
+{
+  "cityCode": "71",
+  "cityName": "KIRIKKALE",
+  "cityPic": "/pic/71.jpg"
+}
+{
+  "cityCode": "72",
+  "cityName": "BATMAN",
+  "cityPic": "/pic/72.jpg"
+}
+{
+  "cityCode": "73",
+  "cityName": "ŞIRNAK",
+  "cityPic": "/pic/73.jpg"
+}
+{
+  "cityCode": "74",
+  "cityName": "BARTIN",
+  "cityPic": "/pic/74.jpg"
+}
+{
+  "cityCode": "75",
+  "cityName": "ARDAHAN",
+  "cityPic": "/pic/75.jpg"
+}
+{
+  "cityCode": "76",
+  "cityName": "IĞDIR",
+  "cityPic": "/pic/76.jpg"
+}
+{
+  "cityCode": "77",
+  "cityName": "YALOVA",
+  "cityPic": "/pic/77.jpg"
+}
+{
+  "cityCode": "78",
+  "cityName": "KARABüK",
+  "cityPic": "/pic/78.jpg"
+}
+{
+  "cityCode": "79",
+  "cityName": "KİLİS",
+  "cityPic": "/pic/79.jpg"
+}
+{
+  "cityCode": "80",
+  "cityName": "OSMANİYE",
+  "cityPic": "/pic/80.jpg"
+}
+{
+  "cityCode": "81",
+  "cityName": "DÜZCE",
+  "cityPic": "/pic/81.jpg"
+}

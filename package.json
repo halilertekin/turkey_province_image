@@ -1,0 +1,28 @@
+{
+  "name": "turkey_province_image",
+  "version": "1.0.0",
+  "description": "Turkey province codes and pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halilertekin/turkey_province_image.git"
+  },
+  "keywords": [
+    "turkey",
+    "province",
+    "json",
+    "codes",
+    "pictures",
+    "81",
+    "province"
+  ],
+  "author": "Halil Ertekin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halilertekin/turkey_province_image/issues"
+  },
+  "homepage": "https://github.com/halilertekin/turkey_province_image#readme"
+}
