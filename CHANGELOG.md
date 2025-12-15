@@ -1,5 +1,61 @@
 # Değişiklik Günlüğü
 
+## [3.2.0] - 2025-12-15
+
+### 🚀 MAHALLE VE SOKAK GENİŞLETMESİ
+
+#### ✨ Mahalle Verileri - KAPSAMLIsayfa GÜNCELLEME
+- **600+ MAHALLE** eklendi (önceden 109)
+- İstanbul için kapsamlı mahalle verileri
+  - Beyoğlu, Fatih, Kadıköy, Üsküdar, Beşiktaş
+  - Adalar, Arnavutköy, Ataşehir, Avcılar, Bağcılar
+  - Bakırköy, Bayrampaşa, Ümraniye
+  - Toplam 200+ mahalle
+- Ankara için kapsamlı mahalle verileri
+  - Çankaya, Keçiören, Yenimahalle, Altındağ, Mamak, Etimesgut
+  - Toplam 130+ mahalle
+- İzmir için kapsamlı mahalle verileri
+  - Konak, Karşıyaka, Bornova, Buca, Karabağlar
+  - Toplam 110+ mahalle
+- Adana: Seyhan, Çukurova (40 mahalle)
+- Bursa: Osmangazi, Nilüfer (50 mahalle)
+- Antalya: Muratpaşa, Kepez (50 mahalle)
+
+#### 🛣️ Sokak Verileri - GENİŞLETİLDİ
+- **190+ SOKAK/CADDE** eklendi (önceden 70)
+- İstanbul: 45 cadde
+  - Beyoğlu: İstiklal Caddesi, Sıraselviler, Meşrutiyet vb. (15 cadde)
+  - Fatih: Divanyolu, Ordu Caddesi, Vatan Caddesi vb. (15 cadde)
+  - Kadıköy: Bağdat Caddesi, Bahariye, Moda vb. (15 cadde)
+- Ankara: 35 cadde
+  - Çankaya: Atatürk Bulvarı, Tunalı Hilmi, GMK vb. (15 cadde)
+  - Keçiören: Aktepe, Etlik, Şentepe vb. (10 cadde)
+  - Yenimahalle: Batıkent, İvedik, Demetevler vb. (10 cadde)
+- İzmir: 35 cadde
+  - Konak: Kordon, Kemeraltı, Anafartalar vb. (15 cadde)
+  - Karşıyaka: Cumhuriyet, Bostanlı, Mavişehir vb. (10 cadde)
+  - Bornova: Kazım Dirik, Erzene Bulvarı vb. (10 cadde)
+- Adana: 15 cadde
+- Bursa: 15 cadde
+- Antalya: 15 cadde
+- Gaziantep: 10 cadde
+- Kocaeli: 10 cadde
+- Konya: 10 cadde
+
+### 📊 İstatistikler
+```
+v3.1.0 → v3.2.0
+━━━━━━━━━━━━━━━━━━
+İl:        81  →   81  (✓)
+İlçe:     973  →  973  (✓)
+Mahalle:  109  →  600+ (🎉 +500)
+Sokak:     70  →  190+ (🎉 +120)
+```
+
+### 📦 Dosya Boyutları
+- neighborhoods.json: 5,545 satır (~130KB)
+- streets.json: 1,331 satır (~30KB)
+
 ## [3.1.0] - 2025-12-15
 
 ### 🚀 BÜYÜK GÜNCELLEME - TÜM TÜRKİYE İLÇELERİ EKLENDİ

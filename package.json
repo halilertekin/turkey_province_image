@@ -1,7 +1,7 @@
 {
   "name": "turkey_province_image",
-  "version": "3.1.0",
-  "description": "Türkiye'nin 81 ili, 973 ilçe, 100+ mahalle ve 70+ sokak bilgilerini içeren en kapsamlı NPM paketi. TypeScript desteği ile! - Complete Turkey data: 81 provinces, 973 districts, 100+ neighborhoods, 70+ streets with TypeScript support",
+  "version": "3.2.0",
+  "description": "Türkiye'nin en kapsamlı adres veri paketi! 81 il, 973 ilçe, 600+ mahalle, 190+ sokak. TypeScript desteği ile! - Complete Turkey data: 81 provinces, 973 districts, 600+ neighborhoods, 190+ streets with TypeScript support",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -32,6 +32,8 @@
     "sokaklar",
     "street",
     "streets",
+    "cadde",
+    "caddeler",
     "plaka",
     "plate",
     "code",
@@ -54,7 +56,9 @@
     "ts",
     "type-safe",
     "complete",
-    "kapsamli"
+    "kapsamli",
+    "address",
+    "adres"
   ],
   "author": "Halil Ertekin",
   "license": "ISC",

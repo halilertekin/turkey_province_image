@@ -10,8 +10,8 @@
 
 - 🇹🇷 **81 İl** - Tüm Türkiye
 - 🏘️ **973 İlçe** - Eksiksiz liste
-- 🏠 **100+ Mahalle** - Büyük şehirler (İstanbul, Ankara, İzmir, Adana)
-- 🛣️ **70+ Sokak/Cadde** - Meşhur caddeler
+- 🏠 **600+ Mahalle** - Büyük şehirler (İstanbul, Ankara, İzmir, Adana, Bursa, Antalya)
+- 🛣️ **190+ Sokak/Cadde** - Meşhur caddeler
 - 🖼️ **81 İl Resmi** - Görsel içerik
 
 ## 📦 Kurulum
@@ -99,7 +99,7 @@ interface District {
 - Antalya: 19 ilçe
 - ve diğer 76 il...
 
-### Mahalleler (Neighborhoods) - 100+ Adet
+### Mahalleler (Neighborhoods) - 600+ Adet
 
 ```typescript
 interface Neighborhood {
@@ -113,13 +113,15 @@ interface Neighborhood {
 }
 ```
 
-**Büyük şehirler için mahalle verileri:**
-- İstanbul: Fatih (31), Kadıköy (18)
-- Ankara: Çankaya (20)
-- İzmir: Konak (20)
-- Adana: Seyhan (20)
+**Büyük şehirler için kapsamlı mahalle verileri:**
+- İstanbul: 200+ mahalle (Fatih, Kadıköy, Üsküdar, Beyoğlu, Beşiktaş vb.)
+- Ankara: 130+ mahalle (Çankaya, Keçiören, Yenimahalle, Altındağ, Mamak)
+- İzmir: 110+ mahalle (Konak, Karşıyaka, Bornova, Buca, Karabağlar)
+- Adana: 40+ mahalle
+- Bursa: 50+ mahalle
+- Antalya: 50+ mahalle
 
-### Sokaklar (Streets) - 70+ Adet
+### Sokaklar (Streets) - 190+ Adet
 
 ```typescript
 interface Street {
@@ -132,10 +134,13 @@ interface Street {
 ```
 
 **Meşhur caddeler:**
-- İstanbul: İstiklal Caddesi, Bağdat Caddesi
-- Ankara: Atatürk Bulvarı, Tunalı Hilmi
-- İzmir: Kordon, Kemeraltı
-- Adana, Bursa, Antalya ana caddeleri
+- İstanbul: İstiklal Caddesi, Bağdat Caddesi, Divanyolu (45 cadde)
+- Ankara: Atatürk Bulvarı, Tunalı Hilmi, GMK Bulvarı (35 cadde)
+- İzmir: Kordon, Kemeraltı, Anafartalar, Bağdat Caddesi (35 cadde)
+- Adana: Atatürk Caddesi, Fevzipaşa Bulvarı (15 cadde)
+- Bursa: Altıparmak Caddesi, Cumhuriyet Caddesi (15 cadde)
+- Antalya: Atatürk Caddesi, Lara Sahil Yolu (15 cadde)
+- Gaziantep, Kocaeli, Konya: Ana caddeler (30 cadde)
 
 ## 🔧 API Metodları (24 adet)
 
@@ -261,8 +266,8 @@ console.log(result); // { valid: true, address: 'BEYAZIT, FATİH, İSTANBUL' }
 
 - ✅ **81 İl** - Tüm Türkiye eksiksiz
 - ✅ **973 İlçe** - Resmi kaynaklara göre tam liste
-- ✅ **100+ Mahalle** - Büyük şehirler için
-- ✅ **70+ Sokak** - Meşhur caddeler
+- ✅ **600+ Mahalle** - Büyük şehirler için kapsamlı
+- ✅ **190+ Sokak** - Meşhur caddeler ve bulvarlar
 - ✅ **TypeScript Desteği** - Tam tip güvenliği
 - ✅ **7 Coğrafi Bölge** - Bölgesel filtreleme
 - ✅ **Detaylı Posta Kodları** - İl, ilçe, mahalle bazında
@@ -272,17 +277,26 @@ console.log(result); // { valid: true, address: 'BEYAZIT, FATİH, İSTANBUL' }
 
 ## 📝 Güncellemeler
 
-### v3.1.0 (2025-12-15) - BÜYÜK GÜNCELLEME 🎉
+### v3.2.0 (2025-12-15) - MAHALLE VE SOKAK GENİŞLETMESİ 🎉
+- ✨ **600+ MAHALLE** - Büyük şehirler için kapsamlı mahalle verileri
+  - İstanbul: 200+ mahalle (11 ilçe)
+  - Ankara: 130+ mahalle (6 ilçe)
+  - İzmir: 110+ mahalle (5 ilçe)
+  - Adana, Bursa, Antalya: 40-50 mahalle
+- ✨ **190+ SOKAK/CADDE** - Meşhur caddeler genişletildi
+  - İstanbul: 45 cadde (Beyoğlu, Fatih, Kadıköy)
+  - Ankara: 35 cadde (Çankaya, Keçiören, Yenimahalle)
+  - İzmir: 35 cadde (Konak, Karşıyaka, Bornova)
+  - Diğer büyük şehirler: 75 cadde
+- 📚 Dokümantasyon güncellendi
+
+### v3.1.0 (2025-12-15) - BÜYÜK GÜNCELLEME
 - ✨ **973 İLÇE EKLENDİ** - Türkiye'nin tüm ilçeleri
-- ✨ **100+ MAHALLE** - Genişletilmiş mahalle verileri
-- ✨ **70+ SOKAK** - Büyük şehirlerin ana caddeleri
-- 📚 Kapsamlı dokümantasyon güncellemesi
-- 🧪 Test senaryoları güncellendi
+- ✨ Mahalle ve sokak verileri eklendi
 
 ### v3.0.0 (2025-12-15)
 - ✨ TypeScript desteği eklendi
 - ✨ İlk mahalle ve sokak verileri
-- ✨ 24 API metodu
 
 ### v2.0.0 (2025-12-15)
 - ✨ Coğrafi bölge bilgisi
