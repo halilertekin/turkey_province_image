@@ -1,22 +1,492 @@
 [
-  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011205","streetName":"ATATÜRK CADDESI","streetCode":"0112051"},
-  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011205","streetName":"İNÖNÜ CADDESI","streetCode":"0112052"},
-  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011205","streetName":"FEVZİPAŞA BULVARI","streetCode":"0112053"},
-  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011210","streetName":"TURİSTİK CADDESI","streetCode":"0112101"},
-  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011210","streetName":"SAHİL YOLU","streetCode":"0112102"},
-  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060705","streetName":"AŞKAABAT CADDESI","streetCode":"0607051"},
-  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060705","streetName":"BEYTEPE CADDESI","streetCode":"0607052"},
-  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060708","streetName":"ÜMIT MAHALLESI SOKAK","streetCode":"0607081"},
-  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060708","streetName":"YAŞAM CADDESI","streetCode":"0607082"},
-  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060709","streetName":"HOŞDERE CADDESI","streetCode":"0607091"},
-  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342005","streetName":"ORDU CADDESI","streetCode":"3420051"},
-  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342005","streetName":"YENİÇERİLER CADDESI","streetCode":"3420052"},
-  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342006","streetName":"AKBIYIK CADDESI","streetCode":"3420061"},
-  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342006","streetName":"DİVANYOLU CADDESI","streetCode":"3420062"},
-  {"cityCode":"34","districtCode":"3413","neighborhoodCode":"341301","streetName":"İSTİKLAL CADDESI","streetCode":"3413011"},
-  {"cityCode":"34","districtCode":"3413","neighborhoodCode":"341301","streetName":"SIRASELVİLER CADDESI","streetCode":"3413012"},
-  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352103","streetName":"ANAFARTALAR CADDESI","streetCode":"3521031"},
-  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352103","streetName":"DOKUZ EYLÜL MEYDANI","streetCode":"3521032"},
-  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352108","streetName":"KEMERALTI CADDESI","streetCode":"3521081"},
-  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352108","streetName":"HAVRA SOKAK","streetCode":"3521082"}
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341301",
+    "streetName": "İSTİKLAL CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341302",
+    "streetName": "SIRASELVİLER CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341303",
+    "streetName": "SIRA SELVİLER SOKAK"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341304",
+    "streetName": "MEŞRUTIYET CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341305",
+    "streetName": "YEŞILÇAM SOKAK"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341306",
+    "streetName": "ASMALIMESCIT SOKAK"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341307",
+    "streetName": "NEVİZADE SOKAK"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341308",
+    "streetName": "KUMBARACI YOKUŞU"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "341309",
+    "streetName": "GALATA KULESİ SOKAK"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3413",
+    "neighborhoodCode": "341301",
+    "streetCode": "3413010",
+    "streetName": "GELİNCİK SOKAK"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342001",
+    "streetName": "ORDU CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342002",
+    "streetName": "YENİÇERİLER CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342003",
+    "streetName": "DİVANYOLU CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342004",
+    "streetName": "AKBIYIK CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342005",
+    "streetName": "ALEMDAR CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342006",
+    "streetName": "ANKARA CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342007",
+    "streetName": "ATATÜRK BULVARI"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342008",
+    "streetName": "BABIALI CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "342009",
+    "streetName": "ÇARŞIKAPI CADDESİ"
+  },
+  {
+    "cityCode": "34",
+    "districtCode": "3420",
+    "neighborhoodCode": "342005",
+    "streetCode": "3420010",
+    "streetName": "FEVZİPAŞA CADDESİ"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060701",
+    "streetName": "ATATÜRK BULVARI"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060702",
+    "streetName": "TUNALI HİLMİ CADDESİ"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060703",
+    "streetName": "GMK BULVARI"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060704",
+    "streetName": "KENNEDYsayfa CADDESİ"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060705",
+    "streetName": "ESkİŞEHİR YOLU"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060706",
+    "streetName": "ÇEVRE YOLU"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060707",
+    "streetName": "KONYA YOLU"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060708",
+    "streetName": "HOŞDERE CADDESİ"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "060709",
+    "streetName": "BİLKENT YOLU"
+  },
+  {
+    "cityCode": "6",
+    "districtCode": "0607",
+    "neighborhoodCode": "060705",
+    "streetCode": "0607010",
+    "streetName": "MUHSIN YAZICIOĞLU CADDESİ"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352101",
+    "streetName": "ANAFARTALAR CADDESİ"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352102",
+    "streetName": "DOKUZ EYLÜL MEYDANI"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352103",
+    "streetName": "KEMERALTI CADDESİ"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352104",
+    "streetName": "HAVRA SOKAK"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352105",
+    "streetName": "KORDON"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352106",
+    "streetName": "CUMHURİYET BULVARI"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352107",
+    "streetName": "GAZI BULVARI"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352108",
+    "streetName": "FEVZİPAŞA BULVARI"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "352109",
+    "streetName": "ŞEHİTLER CADDESİ"
+  },
+  {
+    "cityCode": "35",
+    "districtCode": "3521",
+    "neighborhoodCode": "352103",
+    "streetCode": "3521010",
+    "streetName": "MITHATPAŞA CADDESİ"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011201",
+    "streetName": "ATATÜRK CADDESİ"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011202",
+    "streetName": "İNÖNÜ CADDESİ"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011203",
+    "streetName": "FEVZİPAŞA BULVARI"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011204",
+    "streetName": "TURİSTİK CADDESİ"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011205",
+    "streetName": "SAHİL YOLU"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011206",
+    "streetName": "ZIYAPAŞA BULVARI"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011207",
+    "streetName": "FUZULİ CADDESİ"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011208",
+    "streetName": "ŞAKİRPAŞA CADDESİ"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "011209",
+    "streetName": "SİNANPAŞA CADDESİ"
+  },
+  {
+    "cityCode": "1",
+    "districtCode": "0112",
+    "neighborhoodCode": "011205",
+    "streetCode": "0112010",
+    "streetName": "ATATÜRK PARKI YOLU"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161501",
+    "streetName": "ATATÜRK CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161502",
+    "streetName": "CUMHURİYET CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161503",
+    "streetName": "ALTIPARMAKsayfa CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161504",
+    "streetName": "SETBAŞI CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161505",
+    "streetName": "1. MURAT CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161506",
+    "streetName": "İNÖNÜ CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161507",
+    "streetName": "STADYUM CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161508",
+    "streetName": "FEVZİ ÇAKMAK CADDESİ"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "161509",
+    "streetName": "ANKARA YOLU"
+  },
+  {
+    "cityCode": "16",
+    "districtCode": "1615",
+    "neighborhoodCode": "161501",
+    "streetCode": "1615010",
+    "streetName": "İSTANBUL YOLU"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071801",
+    "streetName": "ATATÜRK CADDESİ"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071802",
+    "streetName": "CUMHURİYET CADDESİ"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071803",
+    "streetName": "ALİ ÇETİNKAYA CADDESİ"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071804",
+    "streetName": "IŞIKLAR CADDESİ"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071805",
+    "streetName": "KONYAALTI SAHİL YOLU"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071806",
+    "streetName": "LARA SAHİL YOLU"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071807",
+    "streetName": "DUMLUPINAR BULVARI"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071808",
+    "streetName": "AKDENİZ BULVARI"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "071809",
+    "streetName": "BALBEY CADDESİ"
+  },
+  {
+    "cityCode": "7",
+    "districtCode": "0718",
+    "neighborhoodCode": "071801",
+    "streetCode": "0718010",
+    "streetName": "KALEİÇİ SOKAK"
+  }
 ]

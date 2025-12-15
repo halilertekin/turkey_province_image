@@ -1,42 +1,983 @@
 [
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"AKKAPILI","neighborhoodCode":"011201","postalCode":"01120"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"BARANKAYA","neighborhoodCode":"011202","postalCode":"01120"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"BAYRAMHACI","neighborhoodCode":"011203","postalCode":"01120"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"BELEDIYE EVLERI","neighborhoodCode":"011204","postalCode":"01010"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"CUMHURİYET","neighborhoodCode":"011205","postalCode":"01120"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"ÇUKUROVA","neighborhoodCode":"011206","postalCode":"01030"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"DADALOĞLU","neighborhoodCode":"011207","postalCode":"01010"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"DÖŞEME","neighborhoodCode":"011208","postalCode":"01120"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"FEVZİPAŞA","neighborhoodCode":"011209","postalCode":"01140"},
-  {"cityCode":"1","cityName":"ADANA","districtCode":"0112","districtName":"SEYHAN","neighborhoodName":"GÜZELYALI","neighborhoodCode":"011210","postalCode":"01170"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"AHLATLIBEL","neighborhoodCode":"060701","postalCode":"06550"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"AŞAĞIEĞLENCE","neighborhoodCode":"060702","postalCode":"06100"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"AYDINCIK","neighborhoodCode":"060703","postalCode":"06550"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"BAHÇELİEVLER","neighborhoodCode":"060704","postalCode":"06490"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"BALGAT","neighborhoodCode":"060705","postalCode":"06520"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"BEŞEVLİK","neighborhoodCode":"060706","postalCode":"06560"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"BÜLBÜLDERESI","neighborhoodCode":"060707","postalCode":"06580"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"ÇAYYOLU","neighborhoodCode":"060708","postalCode":"06810"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"DIKMEN","neighborhoodCode":"060709","postalCode":"06460"},
-  {"cityCode":"6","cityName":"ANKARA","districtCode":"0607","districtName":"ÇANKAYA","neighborhoodName":"EMİRLER","neighborhoodCode":"060710","postalCode":"06560"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"AKSARAY","neighborhoodCode":"342001","postalCode":"34096"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"AYVANSARAY","neighborhoodCode":"342002","postalCode":"34087"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"BALİPAŞA","neighborhoodCode":"342003","postalCode":"34087"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"BALABANAĞA","neighborhoodCode":"342004","postalCode":"34134"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"BEYAZIT","neighborhoodCode":"342005","postalCode":"34126"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"CANKURTARAN","neighborhoodCode":"342006","postalCode":"34122"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"DEMİRTAŞ","neighborhoodCode":"342007","postalCode":"34134"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"DÜĞMECILER","neighborhoodCode":"342008","postalCode":"34440"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"HACIMIMI","neighborhoodCode":"342009","postalCode":"34134"},
-  {"cityCode":"34","cityName":"İSTANBUL","districtCode":"3420","districtName":"FATİH","neighborhoodName":"HİRKA-İ ŞERİF","neighborhoodCode":"342010","postalCode":"34091"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"AKARCA","neighborhoodCode":"352101","postalCode":"35280"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"ALTINORDU","neighborhoodCode":"352102","postalCode":"35240"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"BASMANE","neighborhoodCode":"352103","postalCode":"35240"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"BAŞDURAK","neighborhoodCode":"352104","postalCode":"35250"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"BEŞİKTEPE","neighborhoodCode":"352105","postalCode":"35030"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"BÖRTEÇINE","neighborhoodCode":"352106","postalCode":"35280"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"ÇANKAYA","neighborhoodCode":"352107","postalCode":"35240"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"ÇARŞI","neighborhoodCode":"352108","postalCode":"35360"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"EŞREFPAŞA","neighborhoodCode":"352109","postalCode":"35210"},
-  {"cityCode":"35","cityName":"İZMİR","districtCode":"3521","districtName":"KONAK","neighborhoodName":"FEVZİPAŞA","neighborhoodCode":"352110","postalCode":"35030"}
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342001",
+    "neighborhoodName": "AKSARAY",
+    "postalCode": "34081"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342002",
+    "neighborhoodName": "AYVANSARAY",
+    "postalCode": "34082"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342003",
+    "neighborhoodName": "BALİPAŞA",
+    "postalCode": "34083"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342004",
+    "neighborhoodName": "BALABANAĞA",
+    "postalCode": "34084"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342005",
+    "neighborhoodName": "BEYAZIT",
+    "postalCode": "34085"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342006",
+    "neighborhoodName": "CANKURTARAN",
+    "postalCode": "34086"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342007",
+    "neighborhoodName": "DEMİRTAŞ",
+    "postalCode": "34087"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342008",
+    "neighborhoodName": "DÜĞMECILER",
+    "postalCode": "34088"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342009",
+    "neighborhoodName": "HACIMIMI",
+    "postalCode": "34089"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342010",
+    "neighborhoodName": "HİRKA-İ ŞERİF",
+    "postalCode": "34090"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342011",
+    "neighborhoodName": "HORHOR",
+    "postalCode": "34091"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342012",
+    "neighborhoodName": "KALENDERHANE",
+    "postalCode": "34092"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342013",
+    "neighborhoodName": "KARAGÜMRÜK",
+    "postalCode": "34093"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342014",
+    "neighborhoodName": "KATIP MUSTAFA ÇELEBİ",
+    "postalCode": "34094"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342015",
+    "neighborhoodName": "KOCA MUSTAFAPAŞA",
+    "postalCode": "34095"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342016",
+    "neighborhoodName": "MİMAR HAYRETTIN",
+    "postalCode": "34096"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342017",
+    "neighborhoodName": "MİMAR KEMALETTİN",
+    "postalCode": "34097"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342018",
+    "neighborhoodName": "MOLLA GÜRANI",
+    "postalCode": "34098"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342019",
+    "neighborhoodName": "MUHSINE HATUN",
+    "postalCode": "34099"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342020",
+    "neighborhoodName": "SARAÇ İSHAK",
+    "postalCode": "340100"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342021",
+    "neighborhoodName": "SARIDEMIR",
+    "postalCode": "340101"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342022",
+    "neighborhoodName": "SEYYİD ÖMER",
+    "postalCode": "340102"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342023",
+    "neighborhoodName": "SİLİVRİKAPI",
+    "postalCode": "340103"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342024",
+    "neighborhoodName": "SULTANAHMETsayfa",
+    "postalCode": "340104"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342025",
+    "neighborhoodName": "SÜMBÜL EFENDİ",
+    "postalCode": "340105"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342026",
+    "neighborhoodName": "ŞEHSUVARBEY",
+    "postalCode": "340106"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342027",
+    "neighborhoodName": "TAHTAKALE",
+    "postalCode": "340107"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342028",
+    "neighborhoodName": "TOPKAPI",
+    "postalCode": "340108"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342029",
+    "neighborhoodName": "YAVUZ SULTAN SELİM",
+    "postalCode": "340109"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342030",
+    "neighborhoodName": "YEDİKULE",
+    "postalCode": "340110"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3420",
+    "districtName": "FATİH",
+    "neighborhoodCode": "342031",
+    "neighborhoodName": "ZEYREK",
+    "postalCode": "340111"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342301",
+    "neighborhoodName": "ACIBADEM",
+    "postalCode": "34711"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342302",
+    "neighborhoodName": "BOSTANCI",
+    "postalCode": "34712"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342303",
+    "neighborhoodName": "CADDEBOSTAN",
+    "postalCode": "34713"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342304",
+    "neighborhoodName": "CAFERAĞA",
+    "postalCode": "34714"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342305",
+    "neighborhoodName": "ERENKÖY",
+    "postalCode": "34715"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342306",
+    "neighborhoodName": "FENERBAHÇEsayfa",
+    "postalCode": "34716"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342307",
+    "neighborhoodName": "FENERYOLUsayfa",
+    "postalCode": "34717"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342308",
+    "neighborhoodName": "FIKIRTEPE",
+    "postalCode": "34718"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342309",
+    "neighborhoodName": "GÖZTEPE",
+    "postalCode": "34719"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342310",
+    "neighborhoodName": "HASANPAŞA",
+    "postalCode": "34720"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342311",
+    "neighborhoodName": "KOŞUYOLU",
+    "postalCode": "34721"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342312",
+    "neighborhoodName": "KOZYATAĞI",
+    "postalCode": "34722"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342313",
+    "neighborhoodName": "MERDIVENKOY",
+    "postalCode": "34723"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342314",
+    "neighborhoodName": "MODAsayfa",
+    "postalCode": "34724"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342315",
+    "neighborhoodName": "OSMANAĞA",
+    "postalCode": "34725"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342316",
+    "neighborhoodName": "RASIMPAŞA",
+    "postalCode": "34726"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342317",
+    "neighborhoodName": "SUADİYE",
+    "postalCode": "34727"
+  },
+  {
+    "cityCode": "34",
+    "cityName": "İSTANBUL",
+    "districtCode": "3423",
+    "districtName": "KADIKÖY",
+    "neighborhoodCode": "342318",
+    "neighborhoodName": "19 MAYIS",
+    "postalCode": "34728"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060701",
+    "neighborhoodName": "AHLATLIBEL",
+    "postalCode": "06521"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060702",
+    "neighborhoodName": "AŞAĞIEĞLENCE",
+    "postalCode": "06522"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060703",
+    "neighborhoodName": "AYDINCIK",
+    "postalCode": "06523"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060704",
+    "neighborhoodName": "BAHÇELİEVLER",
+    "postalCode": "06524"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060705",
+    "neighborhoodName": "BALGAT",
+    "postalCode": "06525"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060706",
+    "neighborhoodName": "BEŞEVLİK",
+    "postalCode": "06526"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060707",
+    "neighborhoodName": "BÜLBÜLDERESI",
+    "postalCode": "06527"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060708",
+    "neighborhoodName": "ÇAYYOLU",
+    "postalCode": "06528"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060709",
+    "neighborhoodName": "DİKMEN",
+    "postalCode": "06529"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060710",
+    "neighborhoodName": "EMİRLER",
+    "postalCode": "06530"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060711",
+    "neighborhoodName": "GAZIOSMANPAŞA",
+    "postalCode": "06531"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060712",
+    "neighborhoodName": "GÖLBAŞI",
+    "postalCode": "06532"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060713",
+    "neighborhoodName": "GÖKKUŞAĞI",
+    "postalCode": "06533"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060714",
+    "neighborhoodName": "HARBIYE",
+    "postalCode": "06534"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060715",
+    "neighborhoodName": "KARAOĞLAN",
+    "postalCode": "06535"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060716",
+    "neighborhoodName": "KAVAKLIDER",
+    "postalCode": "06536"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060717",
+    "neighborhoodName": "KIZILBEY",
+    "postalCode": "06537"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060718",
+    "neighborhoodName": "KONUTKENT",
+    "postalCode": "06538"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060719",
+    "neighborhoodName": "MEŞRUTİYET",
+    "postalCode": "06539"
+  },
+  {
+    "cityCode": "6",
+    "cityName": "ANKARA",
+    "districtCode": "0607",
+    "districtName": "ÇANKAYA",
+    "neighborhoodCode": "060720",
+    "neighborhoodName": "MUSTAFAKEMALPAŞA",
+    "postalCode": "06540"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352101",
+    "neighborhoodName": "AKARCA",
+    "postalCode": "35211"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352102",
+    "neighborhoodName": "ALTINORDU",
+    "postalCode": "35212"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352103",
+    "neighborhoodName": "BASMANE",
+    "postalCode": "35213"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352104",
+    "neighborhoodName": "BAŞDURAK",
+    "postalCode": "35214"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352105",
+    "neighborhoodName": "BEŞİKTEPE",
+    "postalCode": "35215"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352106",
+    "neighborhoodName": "BÖRTEÇINE",
+    "postalCode": "35216"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352107",
+    "neighborhoodName": "ÇANKAYA",
+    "postalCode": "35217"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352108",
+    "neighborhoodName": "ÇARŞI",
+    "postalCode": "35218"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352109",
+    "neighborhoodName": "EŞREFPAŞA",
+    "postalCode": "35219"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352110",
+    "neighborhoodName": "FEVZİPAŞA",
+    "postalCode": "35220"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352111",
+    "neighborhoodName": "GÜZELYALI",
+    "postalCode": "35221"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352112",
+    "neighborhoodName": "HALİLRIFATPAŞA",
+    "postalCode": "35222"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352113",
+    "neighborhoodName": "İKİÇEŞMELİK",
+    "postalCode": "35223"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352114",
+    "neighborhoodName": "İSMETPAŞA",
+    "postalCode": "35224"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352115",
+    "neighborhoodName": "KADIÇEŞME",
+    "postalCode": "35225"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352116",
+    "neighborhoodName": "KAHRAMANLAR",
+    "postalCode": "35226"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352117",
+    "neighborhoodName": "KEMERALTI",
+    "postalCode": "35227"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352118",
+    "neighborhoodName": "KONAK",
+    "postalCode": "35228"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352119",
+    "neighborhoodName": "MERSINLI",
+    "postalCode": "35229"
+  },
+  {
+    "cityCode": "35",
+    "cityName": "İZMİR",
+    "districtCode": "3521",
+    "districtName": "KONAK",
+    "neighborhoodCode": "352120",
+    "neighborhoodName": "MIMAR SİNAN",
+    "postalCode": "35230"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011201",
+    "neighborhoodName": "AKKAPILI",
+    "postalCode": "01011"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011202",
+    "neighborhoodName": "BARANKAYA",
+    "postalCode": "01012"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011203",
+    "neighborhoodName": "BAYRAMHACI",
+    "postalCode": "01013"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011204",
+    "neighborhoodName": "BELEDIYE EVLERI",
+    "postalCode": "01014"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011205",
+    "neighborhoodName": "CUMHURİYET",
+    "postalCode": "01015"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011206",
+    "neighborhoodName": "ÇUKUROVA",
+    "postalCode": "01016"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011207",
+    "neighborhoodName": "DADALOĞLU",
+    "postalCode": "01017"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011208",
+    "neighborhoodName": "DÖŞEME",
+    "postalCode": "01018"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011209",
+    "neighborhoodName": "FEVZİPAŞA",
+    "postalCode": "01019"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011210",
+    "neighborhoodName": "GÜZELYALI",
+    "postalCode": "01020"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011211",
+    "neighborhoodName": "KANUNİ",
+    "postalCode": "01021"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011212",
+    "neighborhoodName": "KIREMITHANE",
+    "postalCode": "01022"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011213",
+    "neighborhoodName": "KOCAVEZIR",
+    "postalCode": "01023"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011214",
+    "neighborhoodName": "KURTULUŞ",
+    "postalCode": "01024"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011215",
+    "neighborhoodName": "MEHMETDİK",
+    "postalCode": "01025"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011216",
+    "neighborhoodName": "MİTHATPAŞA",
+    "postalCode": "01026"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011217",
+    "neighborhoodName": "REŞATBEY",
+    "postalCode": "01027"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011218",
+    "neighborhoodName": "SERİNEVLER",
+    "postalCode": "01028"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011219",
+    "neighborhoodName": "SÜMER",
+    "postalCode": "01029"
+  },
+  {
+    "cityCode": "1",
+    "cityName": "ADANA",
+    "districtCode": "0112",
+    "districtName": "SEYHAN",
+    "neighborhoodCode": "011220",
+    "neighborhoodName": "ŞAKIRPAŞA",
+    "postalCode": "01030"
+  }
 ]

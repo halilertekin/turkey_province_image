@@ -1,10 +1,333 @@
 # 🇹🇷 Turkey Province Image & Data
 
-Türkiye'nin 81 ilinin plaka kodları, resimleri, bölgeleri, posta kodları, ilçe, mahalle ve sokak bilgilerini içeren kapsamlı bir NPM paketi. **TypeScript desteği ile!**
+**Türkiye'nin en kapsamlı adres veri paketi!** 81 il, 973 ilçe, 100+ mahalle ve 70+ sokak bilgisi. **TypeScript desteği ile!**
 
 [![npm version](https://img.shields.io/npm/v/turkey_province_image.svg)](https://www.npmjs.com/package/turkey_province_image)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
+
+## 📊 Veri İstatistikleri
+
+- 🇹🇷 **81 İl** - Tüm Türkiye
+- 🏘️ **973 İlçe** - Eksiksiz liste
+- 🏠 **100+ Mahalle** - Büyük şehirler (İstanbul, Ankara, İzmir, Adana)
+- 🛣️ **70+ Sokak/Cadde** - Meşhur caddeler
+- 🖼️ **81 İl Resmi** - Görsel içerik
+
+## 📦 Kurulum
+
+```bash
+npm install turkey_province_image
+```
+
+## 🚀 Kullanım
+
+### JavaScript
+
+```javascript
+const turkeyData = require('turkey_province_image');
+
+// Tüm illeri getir (81 il)
+const cities = turkeyData.getAllCities();
+
+// Tüm ilçeleri getir (973 ilçe)
+const districts = turkeyData.getAllDistricts();
+
+// İstanbul'un ilçelerini getir (39 ilçe)
+const istanbulDistricts = turkeyData.getDistrictsByCity('34');
+
+// Ankara Çankaya mahallelerini getir
+const neighborhoods = turkeyData.getNeighborhoodsByDistrict('0607');
+
+// İstanbul Beyoğlu sokaklarını getir
+const streets = turkeyData.getStreetsByDistrict('3413');
+```
+
+### TypeScript
+
+```typescript
+import turkeyData, { City, District, Neighborhood, Street, Region } from 'turkey_province_image';
+
+// Type-safe kullanım
+const city: City | undefined = turkeyData.getCityByCode('34');
+const districts: District[] = turkeyData.getDistrictsByCity('34');
+const region: Region = 'Marmara';
+const marmaraCities: City[] = turkeyData.getCitiesByRegion(region);
+```
+
+## 📊 Veri Yapısı
+
+### İller (Cities) - 81 Adet ✅
+
+```typescript
+interface City {
+  cityCode: string;        // "34"
+  cityName: string;        // "İSTANBUL"
+  plateCode: string;       // "34"
+  region: Region;          // "Marmara"
+  cityPic: string;         // "/pic/34.jpg"
+  postalCode: string;      // "34000"
+}
+```
+
+**7 Coğrafi Bölge:**
+- 🌊 Marmara (11 il)
+- 🏛️ Ege (8 il)
+- ☀️ Akdeniz (8 il)
+- 🌾 İç Anadolu (12 il)
+- ⛰️ Karadeniz (19 il)
+- 🏔️ Doğu Anadolu (14 il)
+- 🌅 Güneydoğu Anadolu (9 il)
+
+### İlçeler (Districts) - 973 Adet ✅
+
+```typescript
+interface District {
+  cityCode: string;        // "34"
+  cityName: string;        // "İSTANBUL"
+  districtCode: string;    // "3420"
+  districtName: string;    // "FATİH"
+  postalCode: string;      // "34080"
+}
+```
+
+**Tüm iller için ilçeler mevcut:**
+- İstanbul: 39 ilçe
+- Ankara: 25 ilçe
+- İzmir: 30 ilçe
+- Bursa: 17 ilçe
+- Antalya: 19 ilçe
+- ve diğer 76 il...
+
+### Mahalleler (Neighborhoods) - 100+ Adet
+
+```typescript
+interface Neighborhood {
+  cityCode: string;           // "34"
+  cityName: string;           // "İSTANBUL"
+  districtCode: string;       // "3420"
+  districtName: string;       // "FATİH"
+  neighborhoodCode: string;   // "342005"
+  neighborhoodName: string;   // "BEYAZIT"
+  postalCode: string;         // "34126"
+}
+```
+
+**Büyük şehirler için mahalle verileri:**
+- İstanbul: Fatih (31), Kadıköy (18)
+- Ankara: Çankaya (20)
+- İzmir: Konak (20)
+- Adana: Seyhan (20)
+
+### Sokaklar (Streets) - 70+ Adet
+
+```typescript
+interface Street {
+  cityCode: string;           // "34"
+  districtCode: string;       // "3413"
+  neighborhoodCode: string;   // "341301"
+  streetCode: string;         // "3413011"
+  streetName: string;         // "İSTİKLAL CADDESİ"
+}
+```
+
+**Meşhur caddeler:**
+- İstanbul: İstiklal Caddesi, Bağdat Caddesi
+- Ankara: Atatürk Bulvarı, Tunalı Hilmi
+- İzmir: Kordon, Kemeraltı
+- Adana, Bursa, Antalya ana caddeleri
+
+## 🔧 API Metodları (24 adet)
+
+### İl (City) Metodları
+
+```typescript
+getAllCities(): City[]                          // Tüm illeri getir (81)
+getCityByCode(code: string | number): City     // Plaka koduna göre
+getCityByName(name: string): City              // İsme göre
+getCitiesByRegion(region: Region): City[]      // Bölgeye göre
+searchCities(query: string): City[]            // Arama yap
+```
+
+### İlçe (District) Metodları
+
+```typescript
+getAllDistricts(): District[]                        // Tüm ilçeleri getir (973)
+getDistrictsByCity(cityCode: string): District[]     // İle göre ilçeler
+getDistrictByCode(districtCode: string): District    // Kod ile getir
+searchDistricts(query: string): District[]           // Arama yap
+```
+
+### Mahalle (Neighborhood) Metodları
+
+```typescript
+getAllNeighborhoods(): Neighborhood[]                             // Tüm mahalleler
+getNeighborhoodsByCity(cityCode: string): Neighborhood[]          // İle göre
+getNeighborhoodsByDistrict(districtCode: string): Neighborhood[] // İlçeye göre
+getNeighborhoodByCode(neighborhoodCode: string): Neighborhood    // Kod ile
+searchNeighborhoods(query: string): Neighborhood[]               // Arama
+```
+
+### Sokak (Street) Metodları
+
+```typescript
+getAllStreets(): Street[]                                // Tüm sokaklar
+getStreetsByCity(cityCode: string): Street[]             // İle göre
+getStreetsByDistrict(districtCode: string): Street[]     // İlçeye göre
+getStreetsByNeighborhood(nhCode: string): Street[]       // Mahalleye göre
+getStreetByCode(streetCode: string): Street              // Kod ile
+searchStreets(query: string): Street[]                   // Arama
+```
+
+## 💡 Kullanım Örnekleri
+
+### Örnek 1: Tam Hiyerarşi
+
+```javascript
+// İstanbul'un tüm verilerini al
+const istanbul = turkeyData.getCityByCode('34');
+const districts = turkeyData.getDistrictsByCity('34');
+const neighborhoods = turkeyData.getNeighborhoodsByCity('34');
+const streets = turkeyData.getStreetsByCity('34');
+
+console.log(`${istanbul.cityName}:`);
+console.log(`  ${districts.length} ilçe`);
+console.log(`  ${neighborhoods.length} mahalle`);
+console.log(`  ${streets.length} sokak`);
+
+// Çıktı:
+// İSTANBUL:
+//   39 ilçe
+//   49 mahalle
+//   20 sokak
+```
+
+### Örnek 2: Bölgesel İstatistik
+
+```javascript
+// Marmara Bölgesi analizi
+const marmaraCities = turkeyData.getCitiesByRegion('Marmara');
+let totalDistricts = 0;
+
+marmaraCities.forEach(city => {
+  const districts = turkeyData.getDistrictsByCity(city.cityCode);
+  totalDistricts += districts.length;
+  console.log(`${city.cityName}: ${districts.length} ilçe`);
+});
+
+console.log(`\nMarmara Toplam: ${marmaraCities.length} il, ${totalDistricts} ilçe`);
+```
+
+### Örnek 3: Arama ve Filtreleme
+
+```javascript
+// "Merkez" geçen tüm ilçeleri bul
+const merkezDistricts = turkeyData.searchDistricts('MERKEZ');
+console.log(`${merkezDistricts.length} ilçe merkez olarak adlandırılıyor`);
+
+// Atatürk geçen tüm sokakları bul
+const ataturkStreets = turkeyData.searchStreets('ATATÜRK');
+console.log(`${ataturkStreets.length} Atatürk caddesi/sokağı var`);
+```
+
+### Örnek 4: Adres Doğrulama
+
+```javascript
+function validateAddress(cityCode, districtCode, neighborhoodCode) {
+  const city = turkeyData.getCityByCode(cityCode);
+  if (!city) return { valid: false, error: 'İl bulunamadı' };
+  
+  const district = turkeyData.getDistrictByCode(districtCode);
+  if (!district || district.cityCode !== cityCode) {
+    return { valid: false, error: 'İlçe hatalı' };
+  }
+  
+  const neighborhood = turkeyData.getNeighborhoodByCode(neighborhoodCode);
+  if (!neighborhood || neighborhood.districtCode !== districtCode) {
+    return { valid: false, error: 'Mahalle hatalı' };
+  }
+  
+  return {
+    valid: true,
+    address: `${neighborhood.neighborhoodName}, ${district.districtName}, ${city.cityName}`
+  };
+}
+
+const result = validateAddress('34', '3420', '342005');
+console.log(result); // { valid: true, address: 'BEYAZIT, FATİH, İSTANBUL' }
+```
+
+## 📋 Özellikler
+
+- ✅ **81 İl** - Tüm Türkiye eksiksiz
+- ✅ **973 İlçe** - Resmi kaynaklara göre tam liste
+- ✅ **100+ Mahalle** - Büyük şehirler için
+- ✅ **70+ Sokak** - Meşhur caddeler
+- ✅ **TypeScript Desteği** - Tam tip güvenliği
+- ✅ **7 Coğrafi Bölge** - Bölgesel filtreleme
+- ✅ **Detaylı Posta Kodları** - İl, ilçe, mahalle bazında
+- ✅ **İl Görselleri** - 81 adet resim
+- ✅ **Gelişmiş Arama** - Tüm seviyelerde
+- ✅ **Hiyerarşik Veri** - İl → İlçe → Mahalle → Sokak
+
+## 📝 Güncellemeler
+
+### v3.1.0 (2025-12-15) - BÜYÜK GÜNCELLEME 🎉
+- ✨ **973 İLÇE EKLENDİ** - Türkiye'nin tüm ilçeleri
+- ✨ **100+ MAHALLE** - Genişletilmiş mahalle verileri
+- ✨ **70+ SOKAK** - Büyük şehirlerin ana caddeleri
+- 📚 Kapsamlı dokümantasyon güncellemesi
+- 🧪 Test senaryoları güncellendi
+
+### v3.0.0 (2025-12-15)
+- ✨ TypeScript desteği eklendi
+- ✨ İlk mahalle ve sokak verileri
+- ✨ 24 API metodu
+
+### v2.0.0 (2025-12-15)
+- ✨ Coğrafi bölge bilgisi
+- 🐛 İl isimleri düzeltildi
+
+### v1.0.0
+- İlk sürüm: 81 il
+
+## 🗂️ Veri Kaynakları
+
+- [T.C. İçişleri Bakanlığı](https://www.e-icisleri.gov.tr/)
+- [Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü](https://www.nvi.gov.tr/)
+- [PTT Posta Kodları](https://www.ptt.gov.tr/)
+- [Wikipedia - Türkiye'nin İlçeleri](https://tr.wikipedia.org/wiki/T%C3%BCrkiye%27nin_il%C3%A7eleri)
+
+## 🤝 Katkıda Bulunma
+
+Katkıda bulunmak için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyebilirsiniz.
+
+**İhtiyaç duyulan katkılar:**
+- Tüm mahallelerin eklenmesi (50,000+ mahalle)
+- Sokak verilerinin genişletilmesi
+- Koordinat bilgileri (latitude/longitude)
+- Nüfus ve demografik veriler
+
+## 📄 Lisans
+
+ISC
+
+## 👤 Yazar
+
+**Halil Ertekin**
+- GitHub: [@halilertekin](https://github.com/halilertekin)
+
+## 🐛 Sorun Bildirme
+
+[GitHub Issues](https://github.com/halilertekin/turkey_province_image/issues)
+
+## ⭐ Destek
+
+Projeyi beğendiyseniz yıldız vermeyi unutmayın!
+
+---
+
+Made with ❤️ in Turkey 🇹🇷
 
 ## 📦 Kurulum
 
