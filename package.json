@@ -1,7 +1,7 @@
 {
   "name": "turkey_province_image",
-  "version": "3.2.0",
-  "description": "Türkiye'nin en kapsamlı adres veri paketi! 81 il, 973 ilçe, 600+ mahalle, 190+ sokak. TypeScript desteği ile! - Complete Turkey data: 81 provinces, 973 districts, 600+ neighborhoods, 190+ streets with TypeScript support",
+  "version": "3.3.0",
+  "description": "The most comprehensive address data package for Turkey! 81 provinces, 973 districts, 870+ neighborhoods, 245+ streets. TypeScript support! - Türkiye'nin en kapsamlı adres veri paketi! 81 il, 973 ilçe, 870+ mahalle, 245+ sokak",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -34,6 +34,7 @@
     "streets",
     "cadde",
     "caddeler",
+    "avenue",
     "plaka",
     "plate",
     "code",
@@ -57,8 +58,11 @@
     "type-safe",
     "complete",
     "kapsamli",
+    "comprehensive",
     "address",
-    "adres"
+    "adres",
+    "location",
+    "konum"
   ],
   "author": "Halil Ertekin",
   "license": "ISC",
@@ -73,10 +77,15 @@
     "districts.json",
     "neighborhoods.json",
     "streets.json",
-    "pic/"
+    "pic/",
+    "README.md",
+    "README.tr.md"
   ],
   "devDependencies": {
     "@types/node": "^25.0.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "puppeteer": "^24.33.0"
   }
 }
