@@ -1,405 +1,83 @@
-{
-  "cityCode":"1",
-  "cityName":"ADANA",
-  "cityPic":"/pic/01.jpg"
-}
-{
-  "cityCode": "2",
-  "cityName": "ADIYAMAN",
-  "cityPic": "/pic/02.jpg"
-}
-{
-  "cityCode": "3",
-  "cityName": "AFYONKARAHİSAR",
-  "cityPic": "/pic/03.jpg"
-}
-{
-  "cityCode": "4",
-  "cityName": "AĞRI",
-  "cityPic": "/pic/02.jpg"
-}
-{
-  "cityCode": "5",
-  "cityName": "AMASYA",
-  "cityPic": "/pic/05.jpg"
-}
-{
-  "cityCode": "6",
-  "cityName": "ANKARA",
-  "cityPic": "/pic/06.jpg"
-}
-{
-  "cityCode": "7",
-  "cityName": "ANTALYA",
-  "cityPic": "/pic/07.jpg"
-}
-{
-  "cityCode": "8",
-  "cityName": "ARTVIN",
-  "cityPic": "/pic/08.jpg"
-}
-{
-  "cityCode": "9",
-  "cityName": "AYDIN",
-  "cityPic": "/pic/09.jpg"
-}
-{
-  "cityCode": "10",
-  "cityName": "BALIKESİR",
-  "cityPic": "/pic/10.jpg"
-}
-{
-  "cityCode": "11",
-  "cityName": "BİLECİKK",
-  "cityPic": "/pic/11.jpg"
-}
-{
-  "cityCode": "12",
-  "cityName": "BİNGÖL",
-  "cityPic": "/pic/12.jpg"
-}
-{
-  "cityCode": "13",
-  "cityName": "BİTLİS",
-  "cityPic": "/pic/13.jpg"
-}
-{
-  "cityCode": "14",
-  "cityName": "BOLU",
-  "cityPic": "/pic/14.jpg"
-}
-{
-  "cityCode": "15",
-  "cityName": "BURDUR",
-  "cityPic": "/pic/15.jpg"
-}
-{
-  "cityCode": "16",
-  "cityName": "BURSA",
-  "cityPic": "/pic/16.jpg"
-}
-{
-  "cityCode": "17",
-  "cityName": "ÇANAKKALE",
-  "cityPic": "/pic/17.jpg"
-}
-{
-  "cityCode": "18",
-  "cityName": "ÇANKIRI",
-  "cityPic": "/pic/18.jpg"
-}
-{
-  "cityCode": "19",
-  "cityName": "ÇORUM",
-  "cityPic": "/pic/19.jpg"
-}
-{
-  "cityCode": "20",
-  "cityName": "DENİZLİ",
-  "cityPic": "/pic/20.jpg"
-}
-{
-  "cityCode": "21",
-  "cityName": "DİYARBAKIR",
-  "cityPic": "/pic/21.jpg"
-}
-{
-  "cityCode": "22",
-  "cityName": "EDİRNE",
-  "cityPic": "/pic/22.jpg"
-}
-{
-  "cityCode": "23",
-  "cityName": "ELAZIĞ",
-  "cityPic": "/pic/23.jpg"
-}
-{
-  "cityCode": "24",
-  "cityName": "ERZİNCAN",
-  "cityPic": "/pic/24.jpg"
-}
-{
-  "cityCode": "25",
-  "cityName": "ERZURUM",
-  "cityPic": "/pic/25.jpg"
-}
-{
-  "cityCode": "26",
-  "cityName": "ESKİŞEHİR",
-  "cityPic": "/pic/26.jpg"
-}
-{
-  "cityCode": "27",
-  "cityName": "GAZİANTEP",
-  "cityPic": "/pic/27.jpg"
-}
-{
-  "cityCode": "28",
-  "cityName": "GİRESUN",
-  "cityPic": "/pic/28.jpg"
-}
-{
-  "cityCode": "29",
-  "cityName": "GÜMÜŞHANE",
-  "cityPic": "/pic/29.jpg"
-}
-{
-  "cityCode": "30",
-  "cityName": "HAKKARİ",
-  "cityPic": "/pic/30.jpg"
-}
-{
-  "cityCode": "31",
-  "cityName": "HATAY",
-  "cityPic": "/pic/31.jpg"
-}
-{
-  "cityCode": "32",
-  "cityName": "ISPARTA",
-  "cityPic": "/pic/32.jpg"
-}
-{
-  "cityCode": "33",
-  "cityName": "MERSİN",
-  "cityPic": "/pic/33.jpg"
-}
-{
-  "cityCode": "34",
-  "cityName": "İSTANBUL",
-  "cityPic": "/pic/34.jpg"
-}
-{
-  "cityCode": "35",
-  "cityName": "İZMİR",
-  "cityPic": "/pic/35.jpg"
-}
-{
-  "cityCode": "36",
-  "cityName": "KARS",
-  "cityPic": "/pic/36.jpg"
-}
-{
-  "cityCode": "37",
-  "cityName": "KASTAMONU",
-  "cityPic": "/pic/37.jpg"
-}
-{
-  "cityCode": "38",
-  "cityName": "KAYSERİ",
-  "cityPic": "/pic/38.jpg"
-}
-{
-  "cityCode": "39",
-  "cityName": "KIRKLARELİ",
-  "cityPic": "/pic/39.jpg"
-}
-{
-  "cityCode": "40",
-  "cityName": "KIRŞEHİR",
-  "cityPic": "/pic/40.jpg"
-}
-{
-  "cityCode": "41",
-  "cityName": "KOCAELİ",
-  "cityPic": "/pic/41.jpg"
-}
-{
-  "cityCode": "42",
-  "cityName": "KONYA",
-  "cityPic": "/pic/42.jpg"
-}
-{
-  "cityCode": "43",
-  "cityName": "KÜTAHYA",
-  "cityPic": "/pic/43.jpg"
-}
-{
-  "cityCode": "44",
-  "cityName": "MALATYA",
-  "cityPic": "/pic/44.jpg"
-}
-{
-  "cityCode": "45",
-  "cityName": "MANİSA",
-  "cityPic": "/pic/45.jpg"
-}
-{
-  "cityCode": "46",
-  "cityName": "KAHRAMANMARAŞ",
-  "cityPic": "/pic/46.jpg"
-}
-{
-  "cityCode": "47",
-  "cityName": "MARDİN",
-  "cityPic": "/pic/47.jpg"
-}
-{
-  "cityCode": "48",
-  "cityName": "MUĞLA",
-  "cityPic": "/pic/48.jpg"
-}
-{
-  "cityCode": "49",
-  "cityName": "MUŞ",
-  "cityPic": "/pic/49.jpg"
-}
-{
-  "cityCode": "50",
-  "cityName": "NEVŞEHİR",
-  "cityPic": "/pic/50.jpg"
-}
-{
-  "cityCode": "51",
-  "cityName": "NİĞDE",
-  "cityPic": "/pic/51.jpg"
-}
-{
-  "cityCode": "52",
-  "cityName": "ORDU",
-  "cityPic": "/pic/52.jpg"
-}
-{
-  "cityCode": "53",
-  "cityName": "RİZE",
-  "cityPic": "/pic/53.jpg"
-}
-{
-  "cityCode": "54",
-  "cityName": "SAKARYA",
-  "cityPic": "/pic/54.jpg"
-}
-{
-  "cityCode": "55",
-  "cityName": "SAMSUN",
-  "cityPic": "/pic/55.jpg"
-}
-{
-  "cityCode": "56",
-  "cityName": "SİİRT",
-  "cityPic": "/pic/56.jpg"
-}
-{
-  "cityCode": "57",
-  "cityName": "SİNOP",
-  "cityPic": "/pic/57.jpg"
-}
-{
-  "cityCode": "58",
-  "cityName": "SİVAS",
-  "cityPic": "/pic/58.jpg"
-}
-{
-  "cityCode": "59",
-  "cityName": "TEKİRDAĞ",
-  "cityPic": "/pic/59.jpg"
-}
-{
-  "cityCode": "60",
-  "cityName": "TOKAT",
-  "cityPic": "/pic/60.jpg"
-}
-{
-  "cityCode": "61",
-  "cityName": "TRABZON",
-  "cityPic": "/pic/61.jpg"
-}
-{
-  "cityCode": "62",
-  "cityName": "TUNCELİ",
-  "cityPic": "/pic/62.jpg"
-}
-{
-  "cityCode": "63",
-  "cityName": "ŞANLIURFA",
-  "cityPic": "/pic/63.jpg"
-}
-{
-  "cityCode": "64",
-  "cityName": "UŞAK",
-  "cityPic": "/pic/64.jpg"
-}
-{
-  "cityCode": "65",
-  "cityName": "VAN",
-  "cityPic": "/pic/65.jpg"
-}
-{
-  "cityCode": "66",
-  "cityName": "YOZGAT",
-  "cityPic": "/pic/66.jpg"
-}
-{
-  "cityCode": "67",
-  "cityName": "ZONGULDAK",
-  "cityPic": "/pic/67.jpg"
-}
-{
-  "cityCode": "68",
-  "cityName": "AKSARAY",
-  "cityPic": "/pic/68.jpg"
-}
-{
-  "cityCode": "69",
-  "cityName": "BAYBURT",
-  "cityPic": "/pic/69.jpg"
-}
-{
-  "cityCode": "70",
-  "cityName": "KARAMAN",
-  "cityPic": "/pic/70.jpg"
-}
-{
-  "cityCode": "71",
-  "cityName": "KIRIKKALE",
-  "cityPic": "/pic/71.jpg"
-}
-{
-  "cityCode": "72",
-  "cityName": "BATMAN",
-  "cityPic": "/pic/72.jpg"
-}
-{
-  "cityCode": "73",
-  "cityName": "ŞIRNAK",
-  "cityPic": "/pic/73.jpg"
-}
-{
-  "cityCode": "74",
-  "cityName": "BARTIN",
-  "cityPic": "/pic/74.jpg"
-}
-{
-  "cityCode": "75",
-  "cityName": "ARDAHAN",
-  "cityPic": "/pic/75.jpg"
-}
-{
-  "cityCode": "76",
-  "cityName": "IĞDIR",
-  "cityPic": "/pic/76.jpg"
-}
-{
-  "cityCode": "77",
-  "cityName": "YALOVA",
-  "cityPic": "/pic/77.jpg"
-}
-{
-  "cityCode": "78",
-  "cityName": "KARABüK",
-  "cityPic": "/pic/78.jpg"
-}
-{
-  "cityCode": "79",
-  "cityName": "KİLİS",
-  "cityPic": "/pic/79.jpg"
-}
-{
-  "cityCode": "80",
-  "cityName": "OSMANİYE",
-  "cityPic": "/pic/80.jpg"
-}
-{
-  "cityCode": "81",
-  "cityName": "DÜZCE",
-  "cityPic": "/pic/81.jpg"
-}
+[
+  {"cityCode":"1","cityName":"ADANA","plateCode":"01","region":"Akdeniz","cityPic":"/pic/01.jpg","postalCode":"01000"},
+  {"cityCode":"2","cityName":"ADIYAMAN","plateCode":"02","region":"Güneydoğu Anadolu","cityPic":"/pic/02.jpg","postalCode":"02000"},
+  {"cityCode":"3","cityName":"AFYONKARAHİSAR","plateCode":"03","region":"Ege","cityPic":"/pic/03.jpg","postalCode":"03000"},
+  {"cityCode":"4","cityName":"AĞRI","plateCode":"04","region":"Doğu Anadolu","cityPic":"/pic/04.jpg","postalCode":"04000"},
+  {"cityCode":"5","cityName":"AMASYA","plateCode":"05","region":"Karadeniz","cityPic":"/pic/05.jpg","postalCode":"05000"},
+  {"cityCode":"6","cityName":"ANKARA","plateCode":"06","region":"İç Anadolu","cityPic":"/pic/06.jpg","postalCode":"06000"},
+  {"cityCode":"7","cityName":"ANTALYA","plateCode":"07","region":"Akdeniz","cityPic":"/pic/07.jpg","postalCode":"07000"},
+  {"cityCode":"8","cityName":"ARTVİN","plateCode":"08","region":"Karadeniz","cityPic":"/pic/08.jpg","postalCode":"08000"},
+  {"cityCode":"9","cityName":"AYDIN","plateCode":"09","region":"Ege","cityPic":"/pic/09.jpg","postalCode":"09000"},
+  {"cityCode":"10","cityName":"BALIKESİR","plateCode":"10","region":"Marmara","cityPic":"/pic/10.jpg","postalCode":"10000"},
+  {"cityCode":"11","cityName":"BİLECİK","plateCode":"11","region":"Marmara","cityPic":"/pic/11.jpg","postalCode":"11000"},
+  {"cityCode":"12","cityName":"BİNGÖL","plateCode":"12","region":"Doğu Anadolu","cityPic":"/pic/12.jpg","postalCode":"12000"},
+  {"cityCode":"13","cityName":"BİTLİS","plateCode":"13","region":"Doğu Anadolu","cityPic":"/pic/13.jpg","postalCode":"13000"},
+  {"cityCode":"14","cityName":"BOLU","plateCode":"14","region":"Karadeniz","cityPic":"/pic/14.jpg","postalCode":"14000"},
+  {"cityCode":"15","cityName":"BURDUR","plateCode":"15","region":"Akdeniz","cityPic":"/pic/15.jpg","postalCode":"15000"},
+  {"cityCode":"16","cityName":"BURSA","plateCode":"16","region":"Marmara","cityPic":"/pic/16.jpg","postalCode":"16000"},
+  {"cityCode":"17","cityName":"ÇANAKKALE","plateCode":"17","region":"Marmara","cityPic":"/pic/17.jpg","postalCode":"17000"},
+  {"cityCode":"18","cityName":"ÇANKIRI","plateCode":"18","region":"Karadeniz","cityPic":"/pic/18.jpg","postalCode":"18000"},
+  {"cityCode":"19","cityName":"ÇORUM","plateCode":"19","region":"Karadeniz","cityPic":"/pic/19.jpg","postalCode":"19000"},
+  {"cityCode":"20","cityName":"DENİZLİ","plateCode":"20","region":"Ege","cityPic":"/pic/20.jpg","postalCode":"20000"},
+  {"cityCode":"21","cityName":"DİYARBAKIR","plateCode":"21","region":"Güneydoğu Anadolu","cityPic":"/pic/21.jpg","postalCode":"21000"},
+  {"cityCode":"22","cityName":"EDİRNE","plateCode":"22","region":"Marmara","cityPic":"/pic/22.jpg","postalCode":"22000"},
+  {"cityCode":"23","cityName":"ELAZIĞ","plateCode":"23","region":"Doğu Anadolu","cityPic":"/pic/23.jpg","postalCode":"23000"},
+  {"cityCode":"24","cityName":"ERZİNCAN","plateCode":"24","region":"Doğu Anadolu","cityPic":"/pic/24.jpg","postalCode":"24000"},
+  {"cityCode":"25","cityName":"ERZURUM","plateCode":"25","region":"Doğu Anadolu","cityPic":"/pic/25.jpg","postalCode":"25000"},
+  {"cityCode":"26","cityName":"ESKİŞEHİR","plateCode":"26","region":"İç Anadolu","cityPic":"/pic/26.jpg","postalCode":"26000"},
+  {"cityCode":"27","cityName":"GAZİANTEP","plateCode":"27","region":"Güneydoğu Anadolu","cityPic":"/pic/27.jpg","postalCode":"27000"},
+  {"cityCode":"28","cityName":"GİRESUN","plateCode":"28","region":"Karadeniz","cityPic":"/pic/28.jpg","postalCode":"28000"},
+  {"cityCode":"29","cityName":"GÜMÜŞHANE","plateCode":"29","region":"Karadeniz","cityPic":"/pic/29.jpg","postalCode":"29000"},
+  {"cityCode":"30","cityName":"HAKKARİ","plateCode":"30","region":"Doğu Anadolu","cityPic":"/pic/30.jpg","postalCode":"30000"},
+  {"cityCode":"31","cityName":"HATAY","plateCode":"31","region":"Akdeniz","cityPic":"/pic/31.jpg","postalCode":"31000"},
+  {"cityCode":"32","cityName":"ISPARTA","plateCode":"32","region":"Akdeniz","cityPic":"/pic/32.jpg","postalCode":"32000"},
+  {"cityCode":"33","cityName":"MERSİN","plateCode":"33","region":"Akdeniz","cityPic":"/pic/33.jpg","postalCode":"33000"},
+  {"cityCode":"34","cityName":"İSTANBUL","plateCode":"34","region":"Marmara","cityPic":"/pic/34.jpg","postalCode":"34000"},
+  {"cityCode":"35","cityName":"İZMİR","plateCode":"35","region":"Ege","cityPic":"/pic/35.jpg","postalCode":"35000"},
+  {"cityCode":"36","cityName":"KARS","plateCode":"36","region":"Doğu Anadolu","cityPic":"/pic/36.jpg","postalCode":"36000"},
+  {"cityCode":"37","cityName":"KASTAMONU","plateCode":"37","region":"Karadeniz","cityPic":"/pic/37.jpg","postalCode":"37000"},
+  {"cityCode":"38","cityName":"KAYSERİ","plateCode":"38","region":"İç Anadolu","cityPic":"/pic/38.jpg","postalCode":"38000"},
+  {"cityCode":"39","cityName":"KIRKLARELİ","plateCode":"39","region":"Marmara","cityPic":"/pic/39.jpg","postalCode":"39000"},
+  {"cityCode":"40","cityName":"KIRŞEHİR","plateCode":"40","region":"İç Anadolu","cityPic":"/pic/40.jpg","postalCode":"40000"},
+  {"cityCode":"41","cityName":"KOCAELİ","plateCode":"41","region":"Marmara","cityPic":"/pic/41.jpg","postalCode":"41000"},
+  {"cityCode":"42","cityName":"KONYA","plateCode":"42","region":"İç Anadolu","cityPic":"/pic/42.jpg","postalCode":"42000"},
+  {"cityCode":"43","cityName":"KÜTAHYA","plateCode":"43","region":"Ege","cityPic":"/pic/43.jpg","postalCode":"43000"},
+  {"cityCode":"44","cityName":"MALATYA","plateCode":"44","region":"Doğu Anadolu","cityPic":"/pic/44.jpg","postalCode":"44000"},
+  {"cityCode":"45","cityName":"MANİSA","plateCode":"45","region":"Ege","cityPic":"/pic/45.jpg","postalCode":"45000"},
+  {"cityCode":"46","cityName":"KAHRAMANMARAŞ","plateCode":"46","region":"Akdeniz","cityPic":"/pic/46.jpg","postalCode":"46000"},
+  {"cityCode":"47","cityName":"MARDİN","plateCode":"47","region":"Güneydoğu Anadolu","cityPic":"/pic/47.jpg","postalCode":"47000"},
+  {"cityCode":"48","cityName":"MUĞLA","plateCode":"48","region":"Ege","cityPic":"/pic/48.jpg","postalCode":"48000"},
+  {"cityCode":"49","cityName":"MUŞ","plateCode":"49","region":"Doğu Anadolu","cityPic":"/pic/49.jpg","postalCode":"49000"},
+  {"cityCode":"50","cityName":"NEVŞEHİR","plateCode":"50","region":"İç Anadolu","cityPic":"/pic/50.jpg","postalCode":"50000"},
+  {"cityCode":"51","cityName":"NİĞDE","plateCode":"51","region":"İç Anadolu","cityPic":"/pic/51.jpg","postalCode":"51000"},
+  {"cityCode":"52","cityName":"ORDU","plateCode":"52","region":"Karadeniz","cityPic":"/pic/52.jpg","postalCode":"52000"},
+  {"cityCode":"53","cityName":"RİZE","plateCode":"53","region":"Karadeniz","cityPic":"/pic/53.jpg","postalCode":"53000"},
+  {"cityCode":"54","cityName":"SAKARYA","plateCode":"54","region":"Marmara","cityPic":"/pic/54.jpg","postalCode":"54000"},
+  {"cityCode":"55","cityName":"SAMSUN","plateCode":"55","region":"Karadeniz","cityPic":"/pic/55.jpg","postalCode":"55000"},
+  {"cityCode":"56","cityName":"SİİRT","plateCode":"56","region":"Güneydoğu Anadolu","cityPic":"/pic/56.jpg","postalCode":"56000"},
+  {"cityCode":"57","cityName":"SİNOP","plateCode":"57","region":"Karadeniz","cityPic":"/pic/57.jpg","postalCode":"57000"},
+  {"cityCode":"58","cityName":"SİVAS","plateCode":"58","region":"İç Anadolu","cityPic":"/pic/58.jpg","postalCode":"58000"},
+  {"cityCode":"59","cityName":"TEKİRDAĞ","plateCode":"59","region":"Marmara","cityPic":"/pic/59.jpg","postalCode":"59000"},
+  {"cityCode":"60","cityName":"TOKAT","plateCode":"60","region":"Karadeniz","cityPic":"/pic/60.jpg","postalCode":"60000"},
+  {"cityCode":"61","cityName":"TRABZON","plateCode":"61","region":"Karadeniz","cityPic":"/pic/61.jpg","postalCode":"61000"},
+  {"cityCode":"62","cityName":"TUNCELİ","plateCode":"62","region":"Doğu Anadolu","cityPic":"/pic/62.jpg","postalCode":"62000"},
+  {"cityCode":"63","cityName":"ŞANLIURFA","plateCode":"63","region":"Güneydoğu Anadolu","cityPic":"/pic/63.jpg","postalCode":"63000"},
+  {"cityCode":"64","cityName":"UŞAK","plateCode":"64","region":"Ege","cityPic":"/pic/64.jpg","postalCode":"64000"},
+  {"cityCode":"65","cityName":"VAN","plateCode":"65","region":"Doğu Anadolu","cityPic":"/pic/65.jpg","postalCode":"65000"},
+  {"cityCode":"66","cityName":"YOZGAT","plateCode":"66","region":"İç Anadolu","cityPic":"/pic/66.jpg","postalCode":"66000"},
+  {"cityCode":"67","cityName":"ZONGULDAK","plateCode":"67","region":"Karadeniz","cityPic":"/pic/67.jpg","postalCode":"67000"},
+  {"cityCode":"68","cityName":"AKSARAY","plateCode":"68","region":"İç Anadolu","cityPic":"/pic/68.jpg","postalCode":"68000"},
+  {"cityCode":"69","cityName":"BAYBURT","plateCode":"69","region":"Karadeniz","cityPic":"/pic/69.jpg","postalCode":"69000"},
+  {"cityCode":"70","cityName":"KARAMAN","plateCode":"70","region":"İç Anadolu","cityPic":"/pic/70.jpg","postalCode":"70000"},
+  {"cityCode":"71","cityName":"KIRIKKALE","plateCode":"71","region":"İç Anadolu","cityPic":"/pic/71.jpg","postalCode":"71000"},
+  {"cityCode":"72","cityName":"BATMAN","plateCode":"72","region":"Güneydoğu Anadolu","cityPic":"/pic/72.jpg","postalCode":"72000"},
+  {"cityCode":"73","cityName":"ŞIRNAK","plateCode":"73","region":"Güneydoğu Anadolu","cityPic":"/pic/73.jpg","postalCode":"73000"},
+  {"cityCode":"74","cityName":"BARTIN","plateCode":"74","region":"Karadeniz","cityPic":"/pic/74.jpg","postalCode":"74000"},
+  {"cityCode":"75","cityName":"ARDAHAN","plateCode":"75","region":"Doğu Anadolu","cityPic":"/pic/75.jpg","postalCode":"75000"},
+  {"cityCode":"76","cityName":"IĞDIR","plateCode":"76","region":"Doğu Anadolu","cityPic":"/pic/76.jpg","postalCode":"76000"},
+  {"cityCode":"77","cityName":"YALOVA","plateCode":"77","region":"Marmara","cityPic":"/pic/77.jpg","postalCode":"77000"},
+  {"cityCode":"78","cityName":"KARABÜK","plateCode":"78","region":"Karadeniz","cityPic":"/pic/78.jpg","postalCode":"78000"},
+  {"cityCode":"79","cityName":"KİLİS","plateCode":"79","region":"Güneydoğu Anadolu","cityPic":"/pic/79.jpg","postalCode":"79000"},
+  {"cityCode":"80","cityName":"OSMANİYE","plateCode":"80","region":"Akdeniz","cityPic":"/pic/80.jpg","postalCode":"80000"},
+  {"cityCode":"81","cityName":"DÜZCE","plateCode":"81","region":"Karadeniz","cityPic":"/pic/81.jpg","postalCode":"81000"}
+]

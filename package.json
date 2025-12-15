@@ -1,10 +1,11 @@
 {
   "name": "turkey_province_image",
-  "version": "1.0.0",
-  "description": "Turkey province codes and pictures",
+  "version": "3.0.0",
+  "description": "Türkiye'nin 81 ilinin plaka kodları, resimleri, bölgeleri, posta kodları, ilçe, mahalle ve sokak bilgilerini içeren kapsamlı NPM paketi. TypeScript desteği ile! - Complete Turkey data with provinces, districts, neighborhoods, streets, postal codes and TypeScript support",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -12,17 +13,63 @@
   },
   "keywords": [
     "turkey",
+    "turkiye",
     "province",
+    "provinces",
+    "city",
+    "cities",
+    "il",
+    "iller",
+    "ilce",
+    "ilceler",
+    "district",
+    "districts",
+    "mahalle",
+    "mahalleler",
+    "neighborhood",
+    "neighborhoods",
+    "sokak",
+    "sokaklar",
+    "street",
+    "streets",
+    "plaka",
+    "plate",
+    "code",
     "json",
     "codes",
     "pictures",
+    "images",
     "81",
-    "province"
+    "region",
+    "bolge",
+    "bolgeler",
+    "postal",
+    "posta",
+    "kodu",
+    "turkish",
+    "data",
+    "api",
+    "typescript",
+    "ts",
+    "type-safe"
   ],
   "author": "Halil Ertekin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/halilertekin/turkey_province_image/issues"
   },
-  "homepage": "https://github.com/halilertekin/turkey_province_image#readme"
+  "homepage": "https://github.com/halilertekin/turkey_province_image#readme",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cities.json",
+    "districts.json",
+    "neighborhoods.json",
+    "streets.json",
+    "pic/"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "typescript": "^5.9.3"
+  }
 }

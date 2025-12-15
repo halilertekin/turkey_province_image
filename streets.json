@@ -1,0 +1,22 @@
+[
+  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011205","streetName":"ATATÜRK CADDESI","streetCode":"0112051"},
+  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011205","streetName":"İNÖNÜ CADDESI","streetCode":"0112052"},
+  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011205","streetName":"FEVZİPAŞA BULVARI","streetCode":"0112053"},
+  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011210","streetName":"TURİSTİK CADDESI","streetCode":"0112101"},
+  {"cityCode":"1","districtCode":"0112","neighborhoodCode":"011210","streetName":"SAHİL YOLU","streetCode":"0112102"},
+  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060705","streetName":"AŞKAABAT CADDESI","streetCode":"0607051"},
+  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060705","streetName":"BEYTEPE CADDESI","streetCode":"0607052"},
+  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060708","streetName":"ÜMIT MAHALLESI SOKAK","streetCode":"0607081"},
+  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060708","streetName":"YAŞAM CADDESI","streetCode":"0607082"},
+  {"cityCode":"6","districtCode":"0607","neighborhoodCode":"060709","streetName":"HOŞDERE CADDESI","streetCode":"0607091"},
+  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342005","streetName":"ORDU CADDESI","streetCode":"3420051"},
+  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342005","streetName":"YENİÇERİLER CADDESI","streetCode":"3420052"},
+  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342006","streetName":"AKBIYIK CADDESI","streetCode":"3420061"},
+  {"cityCode":"34","districtCode":"3420","neighborhoodCode":"342006","streetName":"DİVANYOLU CADDESI","streetCode":"3420062"},
+  {"cityCode":"34","districtCode":"3413","neighborhoodCode":"341301","streetName":"İSTİKLAL CADDESI","streetCode":"3413011"},
+  {"cityCode":"34","districtCode":"3413","neighborhoodCode":"341301","streetName":"SIRASELVİLER CADDESI","streetCode":"3413012"},
+  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352103","streetName":"ANAFARTALAR CADDESI","streetCode":"3521031"},
+  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352103","streetName":"DOKUZ EYLÜL MEYDANI","streetCode":"3521032"},
+  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352108","streetName":"KEMERALTI CADDESI","streetCode":"3521081"},
+  {"cityCode":"35","districtCode":"3521","neighborhoodCode":"352108","streetName":"HAVRA SOKAK","streetCode":"3521082"}
+]
