@@ -1,5 +1,11 @@
 # Değişiklik Günlüğü
 
+## [3.3.2] - 2026-05-23
+
+### ✨ YENİ ÖZELLİKLER
+- **Dil Desteği**: Hollandaca dil desteği eklendi (`README.nl.md`).
+- **Dokümantasyon**: Tüm README dosyaları diller arası bağlantılarla güncellendi.
+
 ## [3.3.1] - 2026-05-23
 
 ### 🐛 DÜZELTMELER

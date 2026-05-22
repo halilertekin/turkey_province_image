@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
 
-**🇬🇧 English** | [🇹🇷 Türkçe](./README.tr.md)
+**🇬🇧 English** | [🇹🇷 Türkçe](./README.tr.md) | [🇳🇱 Nederlands](./README.nl.md)
 
 ## 📊 Data Statistics
 

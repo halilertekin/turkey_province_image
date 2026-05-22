@@ -6,6 +6,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
 
+**🇬🇧 [English](./README.md)** | **🇹🇷 Türkçe** | **🇳🇱 [Nederlands](./README.nl.md)**
+
 ## 📊 Veri İstatistikleri
 
 - 🇹🇷 **81 İl** - Tüm Türkiye
