@@ -1,5 +1,11 @@
 # Değişiklik Günlüğü
 
+## [3.3.3] - 2026-05-23
+
+### 📚 DOKÜMANTASYON
+- **README Senkronizasyonu**: Tüm dillerdeki (EN, TR, NL) istatistikler ve paket bilgileri güncellendi.
+- **İstatistikler**: Mahalle (32.000+) ve Sokak (245+) sayıları tüm dokümanlarda doğrulandı.
+
 ## [3.3.2] - 2026-05-23
 
 ### ✨ YENİ ÖZELLİKLER

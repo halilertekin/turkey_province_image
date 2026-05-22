@@ -2,7 +2,7 @@
 
 **Het meest uitgebreide adresgegevenspakket voor Turkije!** 81 provincies, 973 districten, 32.000+ wijken en 245+ straten. **Met TypeScript-ondersteuning!**
 
-[![npm version](https://img.shields.io/npm/v/turkey_province_image.svg)](https://www.npmjs.com/package/turkey_province_image)
+[![npm version](https://img.shields.io/npm/v/@halilertekin/turkey_province_image.svg)](https://www.npmjs.com/package/@halilertekin/turkey_province_image)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
 

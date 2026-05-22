@@ -1,6 +1,6 @@
 {
   "name": "@halilertekin/turkey_province_image",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "description": "The most comprehensive address data package for Turkey! 81 provinces, 973 districts, 870+ neighborhoods, 245+ streets. TypeScript support! - Türkiye'nin en kapsamlı adres veri paketi! 81 il, 973 ilçe, 870+ mahalle, 245+ sokak",
   "main": "index.js",
   "types": "index.d.ts",
