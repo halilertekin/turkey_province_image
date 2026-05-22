@@ -19,7 +19,7 @@
 ## 📦 Installation
 
 ```bash
-npm install turkey_province_image
+npm install @halilertekin/turkey_province_image
 ```
 
 ## 🚀 Quick Start

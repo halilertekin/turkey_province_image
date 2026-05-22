@@ -1,5 +1,12 @@
 # Değişiklik Günlüğü
 
+## [3.3.1] - 2026-05-23
+
+### 🐛 DÜZELTMELER
+- **Veri Senkronizasyonu**: `streets.json` dosyasındaki ilçe ve mahalle kodları yeni resmi veri seti ile senkronize edildi.
+- **Testler**: Yeni veri id'lerine göre test senaryoları güncellendi.
+- **Dokümantasyon**: Kurulum talimatları güncel paket adına (@halilertekin/turkey_province_image) göre güncellendi.
+
 ## [3.3.0] - 2025-12-15
 
 ### 🚀 32.000+ MAHALLE EKLENDİ

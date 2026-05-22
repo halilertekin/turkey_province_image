@@ -17,7 +17,7 @@
 ## 📦 Kurulum
 
 ```bash
-npm install turkey_province_image
+npm install @halilertekin/turkey_province_image
 ```
 
 ## 🚀 Kullanım
@@ -346,7 +346,7 @@ Made with ❤️ in Turkey 🇹🇷
 ## 📦 Kurulum
 
 ```bash
-npm install turkey_province_image
+npm install @halilertekin/turkey_province_image
 ```
 
 ## 🚀 Kullanım
