@@ -85,10 +85,10 @@
     "README.tr.md"
   ],
   "devDependencies": {
-    "@types/node": "^25.0.2",
-    "typescript": "^5.9.3"
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
   },
   "dependencies": {
-    "puppeteer": "^24.33.0"
+    "puppeteer": "^25.0.4"
   }
 }

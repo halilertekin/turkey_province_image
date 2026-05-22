@@ -1,5 +1,20 @@
 # Değişiklik Günlüğü
 
+## [3.3.0] - 2025-12-15
+
+### 🚀 32.000+ MAHALLE EKLENDİ
+
+#### ✨ Mahalle Verileri - TAM LİSTE
+- **32.000+ MAHALLE** - Türkiye'nin tüm mahalleleri eklendi!
+- Açık kaynaklı veri kaynaklarına (GitHub) geçiş yapıldı, güncellemeler kolaylaştı.
+
+#### 🛣️ Sokak Verileri
+- **245+ SOKAK/CADDE** - Kapsamlı sokak verileri eklendi.
+
+#### 🌍 Dokümantasyon
+- İngilizce README varsayılan dil yapıldı.
+- Türkçe README (`README.tr.md`) eklendi.
+
 ## [3.2.0] - 2025-12-15
 
 ### 🚀 MAHALLE VE SOKAK GENİŞLETMESİ

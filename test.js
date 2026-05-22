@@ -1,6 +1,6 @@
 const turkeyData = require('./index.js');
 
-console.log('🇹🇷 Turkey Province Data Test - v3.0.0\n');
+console.log('🇹🇷 Turkey Province Data Test - v3.3.0\n');
 
 // Test 1: Tüm illeri getir
 console.log('✅ Test 1: Tüm iller');
@@ -44,7 +44,7 @@ const allNeighborhoods = turkeyData.getAllNeighborhoods();
 console.log(`   Toplam mahalle sayısı: ${allNeighborhoods.length}`);
 const ankaraNeighborhoods = turkeyData.getNeighborhoodsByCity('6');
 console.log(`   Ankara mahalle sayısı: ${ankaraNeighborhoods.length}`);
-const cankayaNeighborhoods = turkeyData.getNeighborhoodsByDistrict('0607');
+const cankayaNeighborhoods = turkeyData.getNeighborhoodsByDistrict('1231');
 console.log(`   Çankaya mahalle sayısı: ${cankayaNeighborhoods.length}\n`);
 
 // Test 8: Sokaklar
@@ -78,12 +78,12 @@ console.log();
 
 // Test 11: Kod bazlı sorgular
 console.log('✅ Test 11: Kod bazlı sorgular');
-const district = turkeyData.getDistrictByCode('0607');
-console.log(`   0607 ilçe kodu:`, district);
-const neighborhood = turkeyData.getNeighborhoodByCode('060705');
-console.log(`   060705 mahalle kodu:`, neighborhood);
-const street = turkeyData.getStreetByCode('0607051');
-console.log(`   0607051 sokak kodu:`, street);
+const district = turkeyData.getDistrictByCode('1231'); // Çankaya
+console.log(`   1231 ilçe kodu:`, district);
+const neighborhood = turkeyData.getNeighborhoodByCode('1614'); // 100.YIL
+console.log(`   1614 mahalle kodu:`, neighborhood);
+const street = turkeyData.getStreetByCode('3413001'); // İstiklal Caddesi
+console.log(`   3413001 sokak kodu:`, street);
 console.log();
 
 // Test 12: Düzeltilen hatalar
